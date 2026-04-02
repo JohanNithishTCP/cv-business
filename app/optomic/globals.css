@@ -1,0 +1,68 @@
+@layer base {
+  :root {
+    font-family: var(--font-outfit), ui-sans-serif, system-ui, sans-serif;
+  }
+}
+
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #243783;
+  --color-primary-dark: #1b2d6b;
+  --color-navy: #1a2350;
+  --color-navy-dark: #0e1830;
+  --color-accent: #E8ECF9;
+  --color-dark: #1A1A1A;
+  --color-text: #333333;
+  --color-muted: #555555;
+  --color-light: #F5F6FC;
+  --color-border: #D8DCF0;
+
+  --font-sans: var(--font-outfit), ui-sans-serif, system-ui, sans-serif;
+}
+
+body {
+  font-family: var(--font-sans);
+  color: var(--color-text);
+  background-color: #ffffff;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+p,
+.paragraph {
+  font-size: 16px !important;
+  font-weight: 400;
+  color: var(--color-text);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--color-dark);
+  font-weight: 600;
+}
+
+.optomic-swiper-button {
+  width: 44px;
+  height: 44px;
+  background: white;
+  border: 1px solid var(--color-border);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+  transition: all 0.2s;
+  cursor: pointer;
+  color: var(--color-primary);
+}
+
+.optomic-swiper-button:hover {
+  background: var(--color-primary);
+  color: white;
+  border-color: var(--color-primary);
+}

@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-oswald: var(--font-oswald);
+  --color-primary: #203864;
+  --color-primary-card: #254275;
+  --color-primary-muted: #2D456E;
+  --color-secondary: #00CBFF;
+  --color-secondary-hover: #00B5E6;
+  --color-surface: #F5F5F5;
+  --color-background: #ffffff;
+  --color-foreground: #333333;
+}
+
+@utility container {
+  width: 100%;
+  margin-inline: auto;
+  padding-inline: 1rem;
+
+  @variant sm {
+    max-width: 640px;
+    padding-inline: 1.5rem;
+  }
+
+  @variant md {
+    max-width: 768px;
+    padding-inline: 2rem;
+  }
+
+  @variant lg {
+    max-width: 1024px;
+  }
+
+  @variant xl {
+    max-width: 1280px;
+    padding-inline: 1.5rem;
+  }
+
+  @variant 2xl {
+    max-width: 1380px;
+  }
+}
+
+:root {
+  --background: #ffffff;
+  --foreground: #333333;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}

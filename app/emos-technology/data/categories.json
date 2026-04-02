@@ -1,0 +1,213 @@
+{
+    "human": {
+        "title": "Human",
+        "introTitle": "Human Endoscopy",
+        "introText": "Human medicine derived from the Latin word humanus is dedicated to understanding the human body in all its complexity: its functions, conditions, and diseases. At the forefront of this mission stands EMOS Technology GmbH, driven by a clear purpose - elevating the standard of patient care through precision, innovation, and uncompromising quality. Our premium range of endoscopes, proudly Made in Germany, supports medical professionals across a wide spectrum of specialties. Designed for diagnostic excellence, our systems deliver exceptionally sharp, high-resolution imaging empowering specialists to make faster, more accurate clinical decisions. Through continuous innovation and advanced optical development, we are redefining clarity in endoscopy. The result: enhanced diagnostic confidence, improved treatment outcomes, more comfortable examinations, and accelerated patient recovery. In addition to our comprehensive EMOS product portfolio, we also offer customized OEM solutions tailored to your specific requirements.",
+        "introImage": "/images/home/human.jpg",
+        "productsTitle": "Endoscopes Made in Germany for use in different disciplines.",
+        "productsSubtitle": "All Products",
+        "products": [
+            {
+                "name": "Naso-Pharyngo-Laryngoscope",
+                "image": "/images/products/6.jpg",
+                "slug": "naso-pharyngo-laryngoscope"
+            },
+            {
+                "name": "Arthroscopes",
+                "image": "/images/products/1.jpg",
+                "slug": "arthroscopes"
+            },
+            {
+                "name": "Bronchoscopes",
+                "image": "/images/products/2.jpg",
+                "slug": "bronchoscopes"
+            },
+            {
+                "name": "Laryngoscope",
+                "image": "/images/products/5.jpg",
+                "slug": "laryngoscope"
+            },
+            {
+                "name": "Cystoscopes",
+                "image": "/images/products/11.jpg",
+                "slug": "rigid-cystoscopes"
+            },
+            {
+                "name": "Hysteroscopes",
+                "image": "/images/products/3.jpg",
+                "slug": "hysteroscopes"
+            },
+            {
+                "name": "Laparoscopes",
+                "image": "/images/products/4.jpg",
+                "slug": "laparoscopes"
+            },
+            {
+                "name": "Sinuscopes",
+                "image": "/images/products/9.jpg",
+                "slug": "sinuscopes"
+            },
+            {
+                "name": "Otoscopes",
+                "image": "/images/products/8.jpg",
+                "slug": "otoscopes"
+            },
+            {
+                "name": "Semi-Flexible Nephroscope",
+                "image": "/images/products/7.jpg",
+                "slug": "semi-flexible-nephroscope"
+            },
+            {
+                "name": "Flexible Cystoscopes",
+                "image": "/images/products/10.jpg",
+                "slug": "flexible-cystoscopes"
+            },
+            {
+                "name": "Flexible Ureterorenoscopes",
+                "image": "/images/products/12.jpg",
+                "slug": "flexible-ureterorenoscopes"
+            },
+            {
+                "name": "Rigid Ureterorenoscopes",
+                "image": "/images/products/13.jpg",
+                "slug": "rigid-ureterorenoscopes"
+            },
+            {
+                "name": "Endoscopy Accessories",
+                "image": "/images/products/14.jpg",
+                "slug": "endoscopy-accessories"
+            },
+            {
+                "name": "Endovision Units",
+                "image": "/images/products/15.jpg",
+                "slug": "endovision-units"
+            }
+        ],
+        "carousel1Title": "Why Choose EMOS Flexible Endoscopes?",
+        "carousel1Features": [
+            {
+                "title": "Modern Design",
+                "description": "Engineered for Clinical Demands",
+                "image": "/images/home/human.jpg"
+            },
+            {
+                "title": "Made in Germany",
+                "description": "Reliability You Expect",
+                "image": "/images/home/industry.jpg"
+            },
+            {
+                "title": "Brilliant Image Representation",
+                "description": "Precision-Crafted Components... Enhanced Depth Perception with Consistent Illumination",
+                "image": "/images/home/veterinary.jpg"
+            },
+            {
+                "title": "Stable Guiding Element",
+                "description": "Durability Redefined through Smart Construction",
+                "image": "/images/home/endoscopes.jpg"
+            },
+            {
+                "title": "Robust Shaft",
+                "description": "Built to withstand Demanding Reprocessing Cycles",
+                "image": "/images/home/repair-1.jpg"
+            },
+            {
+                "title": "Focusable",
+                "description": "Optimal Image Control with an Ergonomic Focusing Ring",
+                "image": "/images/home/repair-2.jpg"
+            }
+        ],
+        "carousel2Title": "Benefits of EMOS Endoscopic Solutions",
+        "carousel2Features": [
+            {
+                "title": "Gold-soldered sapphire lenses",
+                "description": "This airtight seal and adhesive-free design prevents leaks.",
+                "image": "/images/home/bg-passion.jpg"
+            },
+            {
+                "title": "Locking",
+                "description": "Designed for Cross-Brand Sheath Compatibility.",
+                "image": "/images/home/human.jpg"
+            },
+            {
+                "title": "Autoclavable",
+                "description": "Precision-Crafted Components. Enhanced Depth Perception.",
+                "image": "/images/home/industry.jpg"
+            },
+            {
+                "title": "Premium Stainless Steel",
+                "description": "Exceptional Durability and Long-term Corrosion Resistance",
+                "image": "/images/home/veterinary.jpg"
+            },
+            {
+                "title": "Triple-Tube Design",
+                "description": "Offering enhanced structural protection for the Optical System.",
+                "image": "/images/home/endoscopes.jpg"
+            },
+            {
+                "title": "Laser-Welded Construction",
+                "description": "Ensures a completely sealed and secure assembly",
+                "image": "/images/home/repair-1.jpg"
+            }
+        ]
+    },
+    "industry": {
+        "title": "Industry",
+        "introTitle": "Industry Endoscopy",
+        "introText": "Endoscopes for inspection and analysis in industrial applications where visual inspection of cavities and hard to reach areas is cumbersome.",
+        "introImage": "/images/home/industry.jpg",
+        "productsTitle": "Endoscopes Made in Germany for use in different disciplines.",
+        "productsSubtitle": "All Products",
+        "products": [
+            {
+                "name": "Industry Scopes",
+                "image": "/images/home/industry.jpg"
+            }
+        ],
+        "carousel1Title": "Why Choose EMOS Flexible Endoscopes?",
+        "carousel1Features": [
+            {
+                "title": "Modern Design",
+                "description": "Engineered for Demands",
+                "image": "/images/home/industry.jpg"
+            }
+        ],
+        "carousel2Title": "Benefits of EMOS Endoscopic Solutions",
+        "carousel2Features": [
+            {
+                "title": "Autoclavable",
+                "description": "Precision-Crafted Components.",
+                "image": "/images/home/industry.jpg"
+            }
+        ]
+    },
+    "veterinary": {
+        "title": "Veterinary",
+        "introTitle": "Veterinary Endoscopy",
+        "introText": "Special products and services for veterinary procedures.",
+        "introImage": "/images/home/veterinary.jpg",
+        "productsTitle": "Endoscopes Made in Germany for use in veterinary disciplines.",
+        "productsSubtitle": "Why EMOS?",
+        "products": [
+            {
+                "name": "Veterinary Scopes",
+                "image": "/images/home/veterinary.jpg"
+            }
+        ],
+        "carousel1Title": "Why Choose EMOS Flexible Endoscopes?",
+        "carousel1Features": [
+            {
+                "title": "Modern Design",
+                "description": "Engineered for Clinical Demands",
+                "image": "/images/home/veterinary.jpg"
+            }
+        ],
+        "carousel2Title": "Benefits of EMOS Endoscopic Solutions",
+        "carousel2Features": [
+            {
+                "title": "Autoclavable",
+                "description": "Precision-Crafted Components.",
+                "image": "/images/home/veterinary.jpg"
+            }
+        ]
+    }
+}

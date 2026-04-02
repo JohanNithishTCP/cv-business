@@ -1,0 +1,214 @@
+{
+    "headerLinks": [
+        {
+            "label": "Home",
+            "href": "/"
+        },
+        {
+            "label": "About",
+            "href": "/about"
+        },
+        {
+            "label": "Resources",
+            "href": "/resources"
+        },
+        {
+            "label": "Products",
+            "href": "/products"
+        },
+        {
+            "label": "Order",
+            "href": "/order"
+        }
+    ],
+    "medicalDevices": [
+        {
+            "title": "Soft-Biopsy®",
+            "subtitle": "Single-use Kylon® pad for gentle ectocervical friction biopsy; snap-off head to fixative.",
+            "image": "/images/products/softbiopsy.png",
+            "bgColor": "bg-gray-400"
+        },
+        {
+            "title": "Soft-ECC®",
+            "subtitle": "Blunted, tapered Kylon® tip for endocervical curettage; rotate and drop into fixative.",
+            "image": "/images/products/soft-ecc.png",
+            "bgColor": "bg-[#A43B7F]"
+        },
+        {
+            "title": "Soft-ECC-S®",
+            "subtitle": "Smaller, tapered Kylon® ECC device for narrow/stenotic canals.",
+            "image": "/images/products/soft-ecc-s.png",
+            "bgColor": "bg-gray-400"
+        },
+        {
+            "title": "Spirabrush®",
+            "subtitle": "Spiral bristle brush for ectocervical trans-epithelial biopsy; snaps off for transport.",
+            "image": "/images/products/spirabrush.png",
+            "bgColor": "bg-gray-400"
+        }
+    ],
+    "departments": [
+        {
+            "title": "Looking for the same Kylon devices in",
+            "subtitle": "Animal Care",
+            "logo": "/images/home/histologics-1.png",
+            "link": "/advanced"
+        },
+        {
+            "title": "Looking for the same Kylon devices for",
+            "subtitle": "Wound Care",
+            "logo": "/images/home/histologics-2.png",
+            "link": "/care"
+        }
+    ],
+    "testimonials": [
+        {
+            "name": "Ronald Kohorn, MD",
+            "avatar": "/images/home/testi-f.webp",
+            "role": "OB/GYN",
+            "text": "TThe Soft-ECC rotation method assures I get a 360 degree sample with every biopsy. The samples are abundant and diagnostic and the patients seem more comfortable than when I used the Kevorkian curette."
+        },
+        {
+            "name": "Myron R. Kanofsky, M.D",
+            "avatar": "/images/home/testi-m.webp",
+            "role": "OB/GYN",
+            "text": "I’m really pleased with the instruments you developed and am using them exclusively. Nice samples, not much discomfort, not too deep, and nothing to sterilize!"
+        },
+        {
+            "name": "Sean Wengroff, MD",
+            "avatar": "/images/home/testi-f.webp",
+            "role": "OB/GYN",
+            "text": "I cannot say enough good things about these products. They have transformed my colposcopy practice beyond description. My patients no longer have to be in fear of having a colpo performed on them. And it's so easy to collect the specimen!! Every GYN on the planet should be using these, no decisions!!"
+        },
+        {
+            "name": "James H. Schultz, MD, MBA, FAAFP, DiMM",
+            "avatar": "/images/home/testi-f.webp",
+            "role": "OB/GYN",
+            "text": "I have been a long time Spirabrush CX user and like it most for the versatility of reaching lesions off the central cervix at the periphery. I like the SoftBiopsy for lesions at the center of the cervix near the os, at or inside the transformation zone. I love the Soft-ECC and occasionally still use the Kevorkian currette for stenotic cervices, but am willing to try the Soft-ECC-S for those cases"
+        },
+        {
+            "name": "Simone Cox, RNNP",
+            "avatar": "/images/home/testi-f.webp",
+            "role": "OB/GYN",
+            "text": "I cannot say enough good things about these products. They have transformed my colposcopy practice beyond description. My patients no longer have to be in fear of having a colpo performed on them. And it's so easy to collect the specimen!! Every GYN on the planet should be using these, no decisions!!"
+        }
+    ],
+    "videos": [
+        {
+            "title": "Compassionate Colposcopy®",
+            "author": "Dr. Sarah",
+            "date": "22 January 2022",
+            "image": "/images/home/blog-1.jpg",
+            "description": "Histologics LLC is proud to have developed Soft-ECC® endocervical curette, and the SoftBiopsy® exocervical gynecological biopsy device. Both devices employ a multipatented hooked fabric (Kylon®) that simultaneously biopsies with frictional raking/de-bonding of epithelium from stroma, and traps and stores the tissue for transport to the lab."
+        },
+        {
+            "title": "Webinar: A Review of Kylon®",
+            "author": "Admin",
+            "date": "22 January 2022",
+            "image": "/images/home/blog-2.png",
+            "description": "Discover how Histologics' innovative Kylon® technology is transforming (women’s health/wound care). In this webinar, our CEO (Dr. Neal Lonky OB/GYN, MD) discusses its benefits, applications, and how it supports a more compassionate approach to patient care."
+        },
+        {
+            "title": "How Kylon® Removes Diagnostic Biopsy Specimens with SoftBiopsy®, Soft-ECC®",
+            "author": "Clinical Team",
+            "date": "22 January 2022",
+            "image": "/images/home/blog-3.png",
+            "description": "How Kylon® Removes Diagnostic Biopsy Specimens with SoftBiopsy®, Soft-ECC® - Video"
+        },
+        {
+            "title": "Research Supports Compassionate New Biopsy",
+            "author": "Dr. Smith",
+            "date": "22 January 2022",
+            "image": "/images/home/blog-4.jpg",
+            "description": "(3) Mogolia; Gynecologic Research Foundation, USA 2020  - A study conducted in concert with this not for profit organization and the National Cancer Institute evaluated a rapid, high volume system to screen, biopsy, triage and when indicated, treat women at risk of harboring high grade cervical cancer precursors. "
+        }
+    ],
+    "footer": {
+        "about": [
+            {
+                "label": "About",
+                "href": "/about"
+            },
+            {
+                "label": "Product Summary",
+                "href": "/products"
+            },
+            {
+                "label": "News Articles",
+                "href": "/blog"
+            },
+            {
+                "label": "Register for Center of Excellence",
+                "href": "#"
+            },
+            {
+                "label": "Refer a Colleague",
+                "href": "#"
+            },
+            {
+                "label": "Share Your Experience",
+                "href": "#"
+            }
+        ],
+        "marketing": [
+            {
+                "label": "Request Samples",
+                "href": "#"
+            },
+            {
+                "label": "Centers of Excellence",
+                "href": "#"
+            },
+            {
+                "label": "Documentos en Español",
+                "href": "#"
+            },
+            {
+                "label": "Marketing",
+                "href": "#"
+            },
+            {
+                "label": "Intellectual Property",
+                "href": "#"
+            },
+            {
+                "label": "Testimonials",
+                "href": "#"
+            }
+        ],
+        "quickLinks": [
+            {
+                "label": "DCMA Notice",
+                "href": "#"
+            },
+            {
+                "label": "Terms of Use",
+                "href": "#"
+            },
+            {
+                "label": "Privacy Policy",
+                "href": "#"
+            },
+            {
+                "label": "Accessibility Statement",
+                "href": "#"
+            },
+            {
+                "label": "Shipping Policy",
+                "href": "#"
+            },
+            {
+                "label": "Refund & Returns Policy",
+                "href": "#"
+            },
+            {
+                "label": "Login",
+                "href": "/login"
+            }
+        ],
+        "contact": {
+            "phone": "888-738-9757",
+            "address": "4095 E. La Palma Ave., Suite N,\nAnaheim, CA 92807 USA"
+        }
+    }
+}

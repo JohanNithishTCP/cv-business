@@ -1,0 +1,425 @@
+{
+    "naso-pharyngo-laryngoscope": {
+        "title": "Naso-Pharyngo-Laryngoscope",
+        "slug": "naso-pharyngo-laryngoscope",
+        "description": [
+            "Our Naso-Pharyngo-Laryngoscopes, proudly manufactured by EMOS Technology GmbH are a flagship product in our portfolio. Combining innovative design, cutting-edge technology, and exceptional image quality at competitive prices, they set new standards in ENT diagnostics.",
+            "Available with or without a working channel, these scopes feature advanced fiber-optic technology that deliver crisp, high-resolution images, enhancing diagnostic confidence. The Ergonomic design ensures procedures are more comfortable for both patients and clinicians, making examinations smoother, faster, and more precise."
+        ],
+        "images": [
+            "/images/products/6.jpg"
+        ],
+        "catalogIds": [
+            9
+        ],
+        "videos": [
+            {
+                "src": "https://cdn.clinicalvisuals.com/medical/emos/shortclips/emos_04.webm"
+            },
+            {
+                "src": "https://cdn.clinicalvisuals.com/medical/emos/shortclips/emos_01.webm"
+            },
+            {
+                "src": "https://cdn.clinicalvisuals.com/medical/emos/shortclips/emos_02.webm"
+            },
+            {
+                "src": "https://cdn.clinicalvisuals.com/medical/emos/shortclips/emos_03.webm"
+            }
+        ],
+        "keyFeatures": [
+            {
+                "title": "Without Working channel",
+                "features": [
+                    "Insertion tube: Ø 2.2 mm, Ø 2.8 mm, Ø 3.2 mm, Ø 3.4 mm",
+                    "Working length: 300 mm",
+                    "Field of view: 85°",
+                    "Angulation up/down: 160°/160°",
+                    "Available colours: Blue, Green, Black",
+                    "Standard accessories: Leakage tester, ETO-Cap",
+                    "Optional accessories: Plastic suitcase"
+                ]
+            },
+            {
+                "title": "With Working channel",
+                "features": [
+                    "Insertion tube / Working channel: Ø 2.8 mm / Ø 1.2 mm, Ø 3.8 mm / Ø 1.4 mm",
+                    "Working length: 300 mm",
+                    "Field of view: 85°",
+                    "Angulation up/down: 160°/160°",
+                    "Available colours: Blue, Green, Black",
+                    "Standard Accessories: Leakage tester, ETO-Cap",
+                    "Optional Accessories: Plastic suitcase"
+                ]
+            }
+        ]
+    },
+    "arthroscopes": {
+        "title": "Arthroscopes",
+        "slug": "arthroscopes",
+        "description": [
+            "For more than a decade, our expertise and solutions have set new benchmarks in quality and innovation"
+        ],
+        "images": [
+            "/images/products/1.jpg"
+        ],
+        "catalogIds": [
+            1,
+            2
+        ],
+        "keyFeatures": [
+            {
+                "title": "Standard Features",
+                "features": [
+                    "Sapphire Negative and Cover Lens soldered in",
+                    "Compatible with Third party Shafts",
+                    "Autoclavable (134°C/273°F)",
+                    "Stainless steel construction for excellent corrosion resistance",
+                    "3-tube system",
+                    "OEM product, your own logo can be lasered onto the device"
+                ]
+            }
+        ]
+    },
+    "bronchoscopes": {
+        "title": "Bronchoscopes",
+        "slug": "bronchoscopes",
+        "description": [
+            "Designed for ease, Built for precision - EMOS Flexible Bronchoscopes are manufactured to the highest industry standards"
+        ],
+        "images": [
+            "/images/products/2.jpg"
+        ],
+        "catalogIds": [
+            3
+        ],
+        "keyFeatures": [
+            {
+                "title": "Technical Data",
+                "features": [
+                    "Insertion tube: Ø 5.2 mm, Ø 6.0 mm",
+                    "Working length: 600 mm",
+                    "Working channel: Ø 2.3 mm, Ø 2.8 mm",
+                    "Field of view: 100°",
+                    "Angulation up/down: 180°/130°",
+                    "Available colours: Blue, Green",
+                    "Standard accessories: Suction valve, Leakage tester, ETO-Cap",
+                    "Optional accessories: Plastic suitcase"
+                ]
+            }
+        ]
+    },
+    "hysteroscopes": {
+        "title": "Hysteroscopes",
+        "slug": "hysteroscopes",
+        "description": [
+            "Ergonomic build for clinical versatility - EMOS Hysteroscopes are engineered to deliver precision, comfort, and reliability across a wide range of gynecological procedures."
+        ],
+        "images": [
+            "/images/products/3.jpg"
+        ],
+        "catalogIds": [
+            4,
+            5
+        ],
+        "keyFeatures": [
+            {
+                "title": "Standard Features",
+                "features": [
+                    "Sapphire Negative and Cover Lens soldered in",
+                    "Compatible with Third party Shafts",
+                    "Autoclavable (134°C / 273°F)",
+                    "Stainless steel construction for excellent corrosion resistance",
+                    "3-tube system",
+                    "OEM product, your own logo can be lasered onto the optic"
+                ]
+            }
+        ]
+    },
+    "laparoscopes": {
+        "title": "Laparoscopes",
+        "slug": "laparoscopes",
+        "description": [
+            "With Emos Laparoscopes cutting-edge 4K technology, experience visuals so sharp and brilliant, they redefine what you expect from Laparoscopic Imaging."
+        ],
+        "images": [
+            "/images/products/4.jpg"
+        ],
+        "catalogIds": [
+            6,
+            7
+        ],
+        "keyFeatures": [
+            {
+                "title": "Standard Features",
+                "features": [
+                    "Sapphire Negative and Cover Lens soldered in.",
+                    "Compatible with Third party shafts",
+                    "Autoclavable (134°C / 273°F).",
+                    "Stainless steel construction for highest corrosion resistance.",
+                    "3-tube system",
+                    "OEM product, your own logo can be lasered onto the device"
+                ]
+            }
+        ]
+    },
+    "laryngoscope": {
+        "title": "Laryngoscope",
+        "slug": "laryngoscope",
+        "description": [
+            "EMOS Laryngoscopes combine a modular design for easy assembly and a balanced weight to reduce fatigue during clinical procedures making them a trusted choice for airway management"
+        ],
+        "images": [
+            "/images/products/5.jpg"
+        ],
+        "catalogIds": [
+            8
+        ],
+        "keyFeatures": [
+            {
+                "title": "Standard Features",
+                "features": [
+                    "Sapphire Negative and Cover Lens soldered in",
+                    "Compatible with Third party shafts",
+                    "Autoclavable (134°C / 273°F)",
+                    "Stainless steel construction for excellent corrosion resistance",
+                    "3-tube system",
+                    "OEM product, your own logo can be lasered onto the device"
+                ]
+            }
+        ]
+    },
+    "semi-flexible-nephroscope": {
+        "title": "Semi-Flexible Nephroscope",
+        "slug": "semi-flexible-nephroscope",
+        "description": [
+            "Highlighting its hybrid design, the EMOS Semi-Flexible Nephroscope offers the perfect balance of flexibility and precise control, simplifying navigation through complex kidney procedures. Its compact profile minimizes patient trauma, high-quality imaging allows clear visuals for accurate diagnostics, and the integrated working channel facilitates seamless operational procedure"
+        ],
+        "images": [
+            "/images/products/7.jpg"
+        ],
+        "catalogIds": [
+            10
+        ],
+        "keyFeatures": [
+            {
+                "title": "Technical Data",
+                "features": [
+                    "Length: 220 mm",
+                    "Working channel: 6.8 Charr.",
+                    "Direction of view: 5°",
+                    "Field of view: 85°",
+                    "Pixel count: 40.000"
+                ]
+            }
+        ]
+    },
+    "otoscopes": {
+        "title": "Otoscopes",
+        "slug": "otoscopes",
+        "description": [
+            "EMOS Otoscopes combine precision, durability, and ease of use, ensuring clear and reliable examinations every time. Designed for compatibility and long-lasting performance, they offer clinicians the confidence and efficiency needed in daily practice"
+        ],
+        "images": [
+            "/images/products/8.jpg"
+        ],
+        "catalogIds": [
+            11
+        ],
+        "keyFeatures": [
+            {
+                "title": "Standard Features",
+                "features": [
+                    "Sapphire Negative and Cover Lens soldered in",
+                    "Compatible with Third party shafts",
+                    "Autoclavable (134°C / 273°F)",
+                    "Stainless steel construction for highest corrosion resistance",
+                    "3-tube system",
+                    "OEM product, your own logo can be lasered onto the device"
+                ]
+            }
+        ]
+    },
+    "sinuscopes": {
+        "title": "Sinuscopes",
+        "slug": "sinuscopes",
+        "description": [
+            "EMOS Sinuscopes have maintained exceptional quality for over a decade by delivering a perfect balance of precision, agility, and durability, providing clear and accurate sinus examinations while minimizing patient discomfort."
+        ],
+        "images": [
+            "/images/products/9.jpg"
+        ],
+        "catalogIds": [
+            12
+        ],
+        "keyFeatures": [
+            {
+                "title": "Standard Features",
+                "features": [
+                    "Sapphire Negative and Cover lens soldered in",
+                    "Compatible with Third party shafts",
+                    "Autoclavable (134°C / 273°F)",
+                    "Stainless steel construction for highest corrosion resistance",
+                    "3-tube system",
+                    "OEM product, your own logo can be lasered onto the device"
+                ]
+            }
+        ]
+    },
+    "flexible-cystoscopes": {
+        "title": "Flexible Cystoscopes",
+        "slug": "flexible-cystoscopes",
+        "description": [
+            "Experience precision with the EMOS Flexible Cystoscope. Ergonomic design and 18,000-pixel optics deliver clear visuals for accurate assesment"
+        ],
+        "images": [
+            "/images/products/10.jpg"
+        ],
+        "catalogIds": [
+            13
+        ],
+        "keyFeatures": [
+            {
+                "title": "Technical Data",
+                "features": [
+                    "Insertion tube: Ø 5.5 mm",
+                    "Working length: 380 mm",
+                    "Working channel: Ø 2.3 mm",
+                    "Field of view: 100°",
+                    "Angulation up/down: 210°/120°",
+                    "Available colours: Blue, Green",
+                    "Standard Accessories: Purge valve, Leakage tester, ETO-Cap"
+                ]
+            }
+        ]
+    },
+    "rigid-cystoscopes": {
+        "title": "Rigid Cystoscopes",
+        "slug": "rigid-cystoscopes",
+        "description": [
+            "EMOS Rigid Cystoscope is designed for stability and optimal control. Its ergonomic construction and leak proof high-definition optics provide bright and sharp visuals for accurate diagnostics and interventions."
+        ],
+        "images": [
+            "/images/products/11.jpg"
+        ],
+        "catalogIds": [
+            14,
+            15,
+            16,
+            17
+        ],
+        "keyFeatures": [
+            {
+                "title": "Standard Features",
+                "features": [
+                    "Sapphire Negative and Cover Lens soldered in",
+                    "Compatible with Third party shafts",
+                    "Autoclavable (134°C / 273°F)",
+                    "Stainless steel construction for highest corrosion resistance",
+                    "3-tube system",
+                    "OEM product, your own logo can be lasered onto the device"
+                ]
+            }
+        ]
+    },
+    "flexible-ureterorenoscopes": {
+        "title": "Flexible Ureterorenoscopes 8.4/7.5 Fr.",
+        "slug": "flexible-ureterorenoscopes",
+        "description": [
+            "Where innovation meets design — The EMOS Flexible Ureterorenoscopes with working channel combines a slim shaft design, smooth deflection control, and an integrated working channel support for precise instrument handling and efficient irrigation. This construction enables comfortable, fatigue-free operation, delivering reliability and control throughout clinical interventions"
+        ],
+        "images": [
+            "/images/products/12.jpg"
+        ],
+        "catalogIds": [
+            18
+        ],
+        "keyFeatures": [
+            {
+                "title": "Technical Data",
+                "features": [
+                    "Insertion tube: Ø 2.8 mm / Ø 8.4 Fr.",
+                    "Working length: 680 mm",
+                    "Working channel: Ø 1.2 mm",
+                    "Field of view: 88°",
+                    "Angulation up/down: 275°/275°",
+                    "Available in colours: Blue, Green",
+                    "Standard Accessories: Leak Tester, ETO-Cap",
+                    "Optional Accessories: Plastic Suitcase"
+                ]
+            }
+        ]
+    },
+    "rigid-ureterorenoscopes": {
+        "title": "Rigid Ureterorenoscopes",
+        "slug": "rigid-ureterorenoscopes",
+        "description": [
+            "Versatility in shape and size define the Rigid Ureterorenoscopes from EMOS Technology GmbH, engineered for reliable access and optimal control in urological procedures. Its robust shaft design ensures smooth insertion and stability, while high-quality optics deliver bright, sharp visualization for accurate diagnostics and effective intervention"
+        ],
+        "images": [
+            "/images/products/13.jpg"
+        ],
+        "catalogIds": [
+            19
+        ],
+        "keyFeatures": [
+            {
+                "title": "Technical Data",
+                "features": [
+                    "Length: 310 mm / 425 mm",
+                    "Working channel: 4.0 Charr. / 5.1 Charr. / 6.8 Charr.",
+                    "Direction of view: 5°",
+                    "Field of view: 85°",
+                    "Pixel: 17.000 / 40.000"
+                ]
+            }
+        ]
+    },
+    "endoscopy-accessories": {
+        "title": "Endoscopy Accessories",
+        "slug": "endoscopy-accessories",
+        "description": [
+            "EMOS Technology GmbH provides a comprehensive range of high-quality endoscopy accessories designed for use with both flexible and rigid endoscopes. Tailored to your specific applications and system requirements, our product portfolio allows you to easily select the appropriate accessories."
+        ],
+        "images": [
+            "/images/products/14.jpg"
+        ],
+        "catalogIds": [
+            20
+        ],
+        "keyFeatures": [
+            {
+                "title": "Links",
+                "features": [
+                    "For Components and Spare Parts, Click Here",
+                    "For Tools, Attachments and Machines, Click Here",
+                    "For Gastroenterology Products and Accessories, Click Here",
+                    "For Repair Inquiries, Click Here"
+                ]
+            }
+        ]
+    },
+    "endovision-units": {
+        "title": "Endovision Units",
+        "slug": "endovision-units",
+        "description": [
+            "EMOS Endovision Units are designed to deliver reliable performance and outstanding image quality for modern endoscopic procedures. Combining advanced imaging technology with intuitive operation, they provide clear, detailed visualization to support accurate diagnostics and efficient workflows. Engineered for compatibility with both Flexible and Rigid endoscopes, these systems ensure seamless integration, stability, and user-friendly control in any clinical setting.",
+            "Scroll down for an overview of the Emos Endovison Units"
+        ],
+        "images": [
+            "/images/products/15.jpg"
+        ],
+        "catalogIds": [
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30
+        ],
+        "keyFeatures": []
+    }
+}

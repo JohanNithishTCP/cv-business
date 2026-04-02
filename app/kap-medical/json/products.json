@@ -1,0 +1,172 @@
+[
+  {
+    "id": "isense-clrt-system",
+    "name": "ISENSE CLRT System",
+    "image": "/images/product-1.png",
+    "shortDescription": "Full Body Auto Immersion with patented active sensing technology that automatically adjusts pressure in real time to enhance patient comfort and clinical outcomes.",
+    "features": [
+      "5-Zone Auto Pressure Adjustment",
+      "Continuous Lateral Rotation (CLRT)",
+      "Patented KAPSENSE™ Technology"
+    ],
+    "description": "The ISENSE® & ISENSE® CLRT Systems are state-of-the-art therapeutic surfaces designed to provide superior pressure redistribution and patient comfort. Utilizing advanced sensor technology, these systems continuously monitor and adjust to the patient's position and weight, ensuring optimal pressure relief across five distinct zones.",
+    "additionalFeatures": [
+      "Heavy-weight capacity up to 500 lbs",
+      "Quick-release CPR valve for rapid deflation",
+      "Low-friction, breathable top cover",
+      "Quiet operation for better patient sleep"
+    ],
+    "reviews": [
+      {
+        "user": "John Doe",
+        "rating": 5,
+        "comment": "Excellent support and very quiet.",
+        "date": "2024-01-15"
+      }
+    ]
+  },
+  {
+    "id": "k-0-elite-control-unit",
+    "name": "K-0 Elite Control Unit",
+    "image": "/images/product-2.png",
+    "shortDescription": "Advanced microprocessor-controlled unit offering multiple therapy modes for optimal patient care.",
+    "features": [
+      "Microprocessor Control",
+      "Multiple Therapy Modes",
+      "Intuitive Interface"
+    ],
+    "description": "The K-0 Elite Control Unit is the heart of our therapeutic surfaces. It features advanced microprocessor control that allows for precise pressure management and supports various therapy modes, including alternating pressure, lateral rotation, and continuous low pressure.",
+    "additionalFeatures": [
+      "Visual and audible alarms",
+      "Adjustable cycle times",
+      "Easy-to-read LED display",
+      "Compact and portable design"
+    ]
+  },
+  {
+    "id": "k-11-foam-mattress-replacement",
+    "name": "K-11 FOAM MATTRESS REPLACEMENT",
+    "image": "/images/product-3.png",
+    "shortDescription": "High-quality foam mattress replacement with multi-zone support.",
+    "features": [
+      "Multi-Zone Foam Core",
+      "Heel Slope Design",
+      "Fire-Retardant Material"
+    ],
+    "description": "The K-11 Foam Mattress Replacement provides an economical yet effective solution for pressure redistribution. Its multi-zone foam core is engineered to provide varying levels of support to different parts of the body, with a specific focus on heel protection.",
+    "additionalFeatures": [
+      "Tear-resistant cover",
+      "Latex-free materials",
+      "Available in various sizes",
+      "Exceeds standard hospital mattress durability"
+    ]
+  },
+  {
+    "id": "smartturn",
+    "name": "SMARTURN",
+    "image": "/images/product-1.png",
+    "shortDescription": "Intelligent turning system with integrated patient monitoring.",
+    "features": [
+      "Intelligent Turning Logic",
+      "Patient Weight Tracking",
+      "Caregiver Alerts"
+    ],
+    "description": "SMARTURN combines turning technology with patient monitoring to provide a comprehensive solution for immobile patients. It tracks patient movement and weight changes, alerts caregivers to potential issues, and automates the turning process.",
+    "additionalFeatures": [
+      "Battery backup for up to 4 hours",
+      "Intuitive touchscreen interface",
+      "USB port for data export",
+      "Adjustable firmness settings"
+    ]
+  },
+  {
+    "id": "intellimatt",
+    "name": "INTELLIMATT",
+    "image": "/images/product-1.png",
+    "shortDescription": "Intelligent surface with predictive analytics for pressure ulcer prevention.",
+    "features": [
+      "Predictive Algorithm",
+      "High-Resolution Sensors",
+      "Soft-Touch Top Layer"
+    ],
+    "description": "INTELLIMATT uses predictive analytics to identify patients at high risk for pressure ulcers before they develop. By analyzing pressure patterns over time, it helps caregivers implement preventative measures more effectively.",
+    "additionalFeatures": [
+      "Integration with Electronic Health Records (EHR)",
+      "Automatic calibration for different patient sizes",
+      "Removable and washable cover",
+      "Quiet air pump with low vibration"
+    ]
+  },
+  {
+    "id": "zmatt",
+    "name": "ZMATT",
+    "image": "/images/product-1.png",
+    "shortDescription": "Zero-pressure mattress system designed for maximum immersion.",
+    "features": [
+      "True Zero Pressure Zones",
+      "Active Air Cycles",
+      "Reinforced Edges"
+    ],
+    "description": "ZMATT is designed to achieve true zero pressure in critical areas. By cycling air through different cells, it ensures that no part of the body is subjected to persistent pressure, facilitating faster healing of existing ulcers.",
+    "additionalFeatures": [
+      "Emergency deflation mode",
+      "Bariatric version available",
+      "Non-slip base for bed stability",
+      "Color-coded tubes for easy setup"
+    ]
+  },
+  {
+    "id": "dx-z-turn",
+    "name": "DX & Z-TURN",
+    "image": "/images/product-1.png",
+    "shortDescription": "Dual-mode turning and decompression system.",
+    "features": [
+      "Dual-Mode Operation",
+      "Micro-Climate Control",
+      "Enhanced Stability"
+    ],
+    "description": "The DX & Z-TURN system offers both lateral rotation and deep cell decompression in one unit. This versatility makes it suitable for a wide range of patients, from those requiring simple repositioning to those with stage IV pressure ulcers.",
+    "additionalFeatures": [
+      "Adjustable cycle times",
+      "Memory function for previous settings",
+      "Low-pressure alarm",
+      "Durable construction for long-term use"
+    ]
+  },
+  {
+    "id": "smartmatt",
+    "name": "SMARTMATT",
+    "image": "/images/product-1.png",
+    "shortDescription": "Smart pressure redistribution mattress with integrated sensors for real-time monitoring.",
+    "features": [
+      "Real-time Pressure Mapping",
+      "Auto-firming Feature",
+      "Breathable Material"
+    ],
+    "description": "SMARTMATT represents the next generation of smart hospital mattresses. With built-in pressure sensors, it provides caregivers with real-time data on patient positioning and pressure points, allowing for proactive care and intervention.",
+    "additionalFeatures": [
+      "Wireless connectivity for central monitoring",
+      "High-density foam base for bottom-out protection",
+      "Waterproof yet breathable cover",
+      "Lightweight and easy to move"
+    ]
+  },
+  {
+    "id": "iturn-clrt-system",
+    "name": "ITURN CLRT System",
+    "image": "/images/product-1.png",
+    "shortDescription": "Advanced turning system for critical care patients requiring frequent repositioning to prevent pressure ulcers.",
+    "features": [
+      "Programable Turning Cycles",
+      "Moisture Management System",
+      "Integrated Side Bolsters"
+    ],
+    "description": "The ITURN CLRT System is specifically engineered for patients who are unable to turn themselves. It features programmable turning cycles that can be customized to meet individual patient needs, significantly reducing the risk of hospital-acquired pressure ulcers.",
+    "additionalFeatures": [
+      "Audible and visual alarms",
+      "Power failure backup",
+      "Easy-to-clean antimicrobial cover",
+      "Lockout mode for patient safety"
+    ]
+  }
+]

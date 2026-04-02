@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@400;600;700&display=swap');
+@import "tailwindcss";
+
+:root {
+  /* Colors - Premium Palette */
+  --primary-blue: #004a99;
+  --secondary-cyan: #00aeef;
+  --accent-green: #4db748;
+  --text-dark: #1a1a1a;
+  --text-light: #6b7280;
+  --bg-white: #ffffff;
+  --bg-gray: #f9fafb;
+
+  /* Font Sizes - Responsive scale */
+  --fs-h1: clamp(2.5rem, 5vw, 4rem);
+  --fs-h2: clamp(1.75rem, 3vw, 2.5rem);
+  --fs-h3: clamp(1.25rem, 2vw, 1.75rem);
+  --fs-body: 1rem;
+  --fs-small: 0.875rem;
+
+  /* Fonts */
+  --font-heading: 'Outfit', sans-serif;
+  --font-body: 'Inter', sans-serif;
+
+  /* Spacing */
+  --section-padding: clamp(3rem, 10vh, 6rem);
+}
+
+@theme {
+  --color-primary: var(--primary-blue);
+  --color-secondary: var(--secondary-cyan);
+  --color-accent: var(--accent-green);
+  --color-bg-gray: var(--bg-gray);
+  --font-sans: var(--font-body);
+  --font-heading: var(--font-heading);
+}
+
+body {
+  background: var(--bg-white);
+  color: var(--text-dark);
+  font-family: var(--font-body);
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-heading);
+  letter-spacing: -0.02em;
+}
+
+h1 {
+  font-size: var(--fs-h1);
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+h2 {
+  font-size: var(--fs-h2);
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+h3 {
+  font-size: var(--fs-h3);
+  font-weight: 600;
+}
+
+p {
+  font-size: var(--fs-body);
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+  width: 100%;
+}
+
+@media (min-width: 1440px) {
+  .container {
+    max-width: 1400px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .container {
+    max-width: 1520px;
+  }
+}
+
+/* @media (min-width: 1920px) {
+  .container {
+    max-width: 1720px;
+  }
+} */
+
+.section {
+  padding: var(--section-padding) 0;
+}
+
+section {
+  overflow: hidden !important;
+}
+
+
+.glass {
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+.text-gradient-blue {
+  background: linear-gradient(135deg, var(--primary-blue), var(--secondary-cyan));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
