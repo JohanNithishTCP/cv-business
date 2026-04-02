@@ -44,10 +44,54 @@ export default function AdminPage() {
     const [activeWebsite, setActiveWebsite] = useState<string>('');
     const [activeCategory, setActiveCategory] = useState('banner');
     const [toast, setToast] = useState<{ message: string; type: 'success' | 'error' } | null>(null);
+    
+    // Auth State
+    const [isLoggedIn, setIsLoggedIn] = useState(false);
+    const [authLoading, setAuthLoading] = useState(true);
+    const [loginError, setLoginError] = useState('');
+    const [usernameInput, setUsernameInput] = useState('');
+    const [passwordInput, setPasswordInput] = useState('');
 
     useEffect(() => {
-        fetchData();
+        const logged = localStorage.getItem('isLoggedIn');
+        if (logged === 'true') {
+            setIsLoggedIn(true);
+            fetchData();
+        }
+        setAuthLoading(false);
     }, []);
+
+    const handleLogin = async (e: React.FormEvent) => {
+        e.preventDefault();
+        setLoginError('');
+        setAuthLoading(true);
+
+        try {
+            const response = await fetch('/api/auth/login', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ username: usernameInput, password: passwordInput }),
+            });
+
+            if (response.ok) {
+                setIsLoggedIn(true);
+                localStorage.setItem('isLoggedIn', 'true');
+                fetchData();
+            } else {
+                const err = await response.json();
+                setLoginError(err.error || 'Invalid credentials');
+            }
+        } catch (error) {
+            setLoginError('Failed to connect to the server');
+        } finally {
+            setAuthLoading(false);
+        }
+    };
+
+    const handleLogout = () => {
+        setIsLoggedIn(false);
+        localStorage.removeItem('isLoggedIn');
+    };
 
     const fetchData = async () => {
         setLoading(true);
@@ -185,7 +229,7 @@ export default function AdminPage() {
 
     const currentWebsiteData = data && activeWebsite ? data[activeWebsite] : null;
 
-    if (loading) {
+    if (authLoading && !isLoggedIn) {
         return (
             <div className="min-h-screen bg-white flex items-center justify-center">
                 <motion.div
@@ -194,6 +238,82 @@ export default function AdminPage() {
                     className="p-4 rounded-full border-t-4 border-blue-500 border-r-4 border-r-transparent"
                 >
                     <RefreshCcw className="w-10 h-10 text-blue-500" />
+                </motion.div>
+            </div>
+        );
+    }
+
+    if (!isLoggedIn) {
+        return (
+            <div className="min-h-screen bg-slate-950 flex items-center justify-center p-6 font-sans">
+                <div className="fixed inset-0 bg-[radial-gradient(circle_at_50%_50%,rgba(59,130,246,0.1),transparent)] pointer-events-none" />
+                
+                <motion.div 
+                    initial={{ opacity: 0, scale: 0.95 }}
+                    animate={{ opacity: 1, scale: 1 }}
+                    className="w-full max-w-md"
+                >
+                    <div className="bg-white/3 backdrop-blur-3xl border border-white/10 p-10 rounded-[48px] shadow-2xl space-y-8 relative overflow-hidden">
+                        <div className="absolute top-0 left-0 w-32 h-32 bg-blue-500/10 rounded-br-[120px] pointer-events-none" />
+                        
+                        <div className="text-center space-y-3 relative">
+                            <div className="inline-flex p-4 rounded-3xl bg-blue-500 shadow-xl shadow-blue-500/20 mb-4">
+                                <Lock className="w-8 h-8 text-white" />
+                            </div>
+                            <h1 className="text-4xl font-black text-white tracking-tighter">Panel Access</h1>
+                            <p className="text-slate-400 font-medium">Verify credentials to manage system assets.</p>
+                        </div>
+
+                        <form onSubmit={handleLogin} className="space-y-6">
+                            <div className="space-y-4">
+                                <div className="space-y-2">
+                                    <label className="text-[10px] font-black text-slate-500 uppercase tracking-widest pl-1">Username</label>
+                                    <input 
+                                        type="text"
+                                        value={usernameInput}
+                                        onChange={(e) => setUsernameInput(e.target.value)}
+                                        className="w-full bg-white/5 border border-white/10 rounded-2xl px-6 py-4 text-white font-bold focus:bg-white/8 focus:border-blue-500/50 outline-none transition-all"
+                                        placeholder="Enter username"
+                                        required
+                                    />
+                                </div>
+                                <div className="space-y-2">
+                                    <label className="text-[10px] font-black text-slate-500 uppercase tracking-widest pl-1">Security Key</label>
+                                    <input 
+                                        type="password"
+                                        value={passwordInput}
+                                        onChange={(e) => setPasswordInput(e.target.value)}
+                                        className="w-full bg-white/5 border border-white/10 rounded-2xl px-6 py-4 text-white font-bold focus:bg-white/8 focus:border-blue-500/50 outline-none transition-all"
+                                        placeholder="••••••••"
+                                        required
+                                    />
+                                </div>
+                            </div>
+
+                            {loginError && (
+                                <motion.div 
+                                    initial={{ opacity: 0, y: -10 }}
+                                    animate={{ opacity: 1, y: 0 }}
+                                    className="flex items-center gap-3 p-4 bg-red-500/10 border border-red-500/20 rounded-2xl text-red-400 text-sm font-bold"
+                                >
+                                    <AlertCircle className="w-4 h-4 flex-none" />
+                                    <span>{loginError}</span>
+                                </motion.div>
+                            )}
+
+                            <button 
+                                type="submit"
+                                disabled={authLoading}
+                                className="w-full bg-blue-600 hover:bg-blue-500 text-white py-5 rounded-3xl font-black transition-all shadow-xl shadow-blue-500/10 active:scale-[0.98] disabled:opacity-50 flex items-center justify-center gap-3"
+                            >
+                                {authLoading ? <RefreshCcw className="w-5 h-5 animate-spin" /> : <>Access System <ChevronRight className="w-5 h-5" /></>}
+                            </button>
+                        </form>
+
+                        <div className="pt-4 text-center">
+                            <span className="text-[10px] font-black text-slate-600 uppercase tracking-widest">Secured by Internal Protocols</span>
+                        </div>
+                    </div>
                 </motion.div>
             </div>
         );
@@ -288,7 +408,7 @@ export default function AdminPage() {
                         </div>
                     </div>
 
-                    <div className="p-8 border-t border-slate-50 bg-slate-50/30">
+                    <div className="p-8 border-t border-slate-50 bg-slate-50/30 space-y-4">
                         <button
                             onClick={saveData}
                             disabled={saving}
@@ -302,6 +422,14 @@ export default function AdminPage() {
                                     <span className="tracking-tight">Push Changes</span>
                                 </>
                             )}
+                        </button>
+
+                        <button
+                            onClick={handleLogout}
+                            className="w-full bg-white border border-slate-200 text-slate-500 hover:text-red-600 hover:bg-red-50 py-4 rounded-[22px] font-bold text-sm transition-all flex items-center justify-center gap-2"
+                        >
+                            <Lock className="w-4 h-4" />
+                            <span>System Lock</span>
                         </button>
                     </div>
                 </aside>

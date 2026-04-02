@@ -1,26 +1,44 @@
-import { promises as fs } from 'fs';
-import path from 'path';
 import { NextResponse } from 'next/server';
+import clientPromise from '@/lib/mongodb';
 
-const VIDEOS_PATH = path.join(process.cwd(), 'data', 'videos.json');
+const DB_NAME = 'cv_business'; // Or you can extract from the URI if needed
+const COLLECTION_NAME = 'video_data';
+const DOCUMENT_ID = 'current_videos';
 
 export async function GET() {
     try {
-        const fileContent = await fs.readFile(VIDEOS_PATH, 'utf8');
-        return NextResponse.json(JSON.parse(fileContent));
+        const client = await clientPromise;
+        const db = client.db(DB_NAME);
+        const data = await db.collection(COLLECTION_NAME).findOne({ id: DOCUMENT_ID });
+
+        if (!data) {
+            return NextResponse.json({});
+        }
+
+        // Exclude the _id field from the response
+        const { _id, id, ...videoData } = data;
+        return NextResponse.json(videoData);
     } catch (error) {
-        console.error('Error reading videos.json:', error);
-        return NextResponse.json({ error: 'Failed to read video data' }, { status: 500 });
+        console.error('Error reading from MongoDB:', error);
+        return NextResponse.json({ error: 'Failed to read video data from database' }, { status: 500 });
     }
 }
 
 export async function POST(request: Request) {
     try {
         const body = await request.json();
-        await fs.writeFile(VIDEOS_PATH, JSON.stringify(body, null, 4), 'utf8');
-        return NextResponse.json({ message: 'Saved successfully' });
+        const client = await clientPromise;
+        const db = client.db(DB_NAME);
+
+        await db.collection(COLLECTION_NAME).updateOne(
+            { id: DOCUMENT_ID },
+            { $set: { ...body, id: DOCUMENT_ID } },
+            { upsert: true }
+        );
+
+        return NextResponse.json({ message: 'Saved successfully to MongoDB' });
     } catch (error) {
-        console.error('Error writing videos.json:', error);
-        return NextResponse.json({ error: 'Failed to save video data' }, { status: 500 });
+        console.error('Error writing to MongoDB:', error);
+        return NextResponse.json({ error: 'Failed to save video data to database' }, { status: 500 });
     }
 }
