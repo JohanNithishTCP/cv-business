@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+@import "swiper/css";
+@import "swiper/css/navigation";
+/* h2 {
+  font-size:22px;
+  font-weight:600;
+}
+
+h4 {
+  font-size:20px;
+  font-weight:600;
+  color:#353A3D;
+} */
+
+p {
+  font-size:16px;
+  line-height:1.5;
+}
+
+button{
+  font-size: 16px;
+  font-weight: 600;
+}
+section{
+  overflow-x: hidden;
+}

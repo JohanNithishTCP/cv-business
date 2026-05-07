@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+@theme {
+  --color-horizon-primary: #064163;
+  --color-horizon-primary-hover: #04324d;
+  --color-horizon-secondary: #84CFFA;
+  --color-horizon-dark: #000000;
+  --color-horizon-text: #827E76;
+  --color-horizon-gray: #f8f9fa;
+  --color-horizon-light-bg: #84CFFA;
+
+  --font-sans: "Onest", ui-sans-serif, system-ui, sans-serif;
+}
+
+@layer base {
+  :root {
+    --font-onest: "Onest", sans-serif;
+  }
+
+  html,
+  body {
+    font-family: var(--font-sans);
+    color: var(--color-horizon-text);
+    background-color: #ffffff;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden !important;
+    width: 100%;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: #1A1A1A;
+    font-weight: 700;
+    letter-spacing: -0.01em;
+  }
+
+  p {
+    color: var(--color-horizon-text);
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 1.6;
+  }
+}

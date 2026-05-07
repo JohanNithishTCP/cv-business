@@ -1,0 +1,36 @@
+import type { Metadata } from "next";
+import { Poppins } from "next/font/google";
+import "./globals.css";
+import { VideoProvider } from "../../_context/VideoContext";
+
+const poppins = Poppins({
+  variable: "--font-poppins",
+  subsets: ["latin"],
+  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
+})
+
+export const metadata: Metadata = {
+  title: "Medacure",
+  description: "Innovative Healthcare Solutions",
+  icons: {
+    icon: "/medacure/assets/medacure-favicon2.webp",
+  },
+};
+
+export default function RootLayout({
+  children,
+}: Readonly<{
+  children: React.ReactNode;
+}>) {
+  return (
+    <html lang="en">
+      <body
+        className={`${poppins.variable} antialiased`}
+      >
+        <VideoProvider>
+          {children}
+        </VideoProvider>
+      </body>
+    </html>
+  );
+}

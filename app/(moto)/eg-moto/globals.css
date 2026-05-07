@@ -1,0 +1,68 @@
+@import "tailwindcss";
+
+@theme {
+  --color-nihon-blue: #0068B3;
+  --color-nihon-light-blue: #D8EFFF;
+  --color-nihon-dark-blue: #004d85;
+  --color-nihon-text-dark: #333333;
+  --color-nihon-text-gray: #666666;
+  --color-nihon-bg-light: #f8f9fa;
+
+  --font-sans: "Outfit", ui-sans-serif, system-ui, sans-serif;
+
+  --container-max-width: 1280px;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+  }
+
+  body {
+    @apply text-nihon-text-dark antialiased;
+    font-family: var(--font-sans);
+    overflow: visible;
+  }
+
+  p {
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 1.6;
+    color: var(--color-nihon-text-dark);
+  }
+}
+
+@layer components {
+  .nihon-container {
+    @apply max-w-[var(--container-max-width)] mx-auto px-4;
+  }
+
+  @media (min-width: 768px) {
+    .nihon-container {
+      @apply px-6;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .nihon-container {
+      @apply px-8;
+    }
+  }
+
+  .btn-primary {
+    @apply bg-nihon-blue text-white px-6 py-2.5 rounded-md font-medium transition-all duration-300 flex items-center gap-2;
+  }
+
+  .btn-primary:hover {
+    @apply bg-nihon-dark-blue;
+  }
+
+  .btn-outline {
+    @apply border-2 border-nihon-blue text-nihon-blue px-6 py-2.5 rounded-md font-medium transition-all duration-300 flex items-center gap-2;
+  }
+
+  .btn-outline:hover {
+    @apply bg-nihon-blue text-white;
+  }
+}

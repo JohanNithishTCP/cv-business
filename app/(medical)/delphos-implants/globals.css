@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --primary: #059347;
+  }
+
+  html,
+  body {
+    @apply font-manrope text-[17px] text-[#333333];
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-sora font-semibold;
+    font-size: 24px;
+  }
+
+  p {
+    @apply font-manrope text-[17px] leading-[30px];
+  }
+}
+
+section {
+  overflow: hidden;
+}
+
+@theme {
+  --font-sora: var(--font-sora);
+  --font-manrope: var(--font-manrope);
+}
